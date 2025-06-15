@@ -18,7 +18,7 @@ st.title("🎓 Student Performance & Graduation Analysis App")
 st.markdown("Analyze student survey data and predict academic performance using KNN.")
 
 # Upload section
-uploaded_file = st.file_uploader("Upload your CSV file", type=["csv"])
+uploaded_file = st.file_uploader("stats_survy.csv")
 if uploaded_file:
     df = pd.read_csv(uploaded_file)
 
